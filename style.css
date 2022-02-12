@@ -426,6 +426,7 @@ position: fixed;
 .move{
 position: absolute;
 right: 90rem;
+    transtion : all 700ms; 
 }
 #logo{
     float: right;
