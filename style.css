@@ -516,6 +516,15 @@ nav ul li a{
     color:var(--secondary);
     font-weight: 100;
 }
+    
+      .content button{
+      font-size: 20px;
+   
+  }
+  .content button a{
+    font-size: 20px;
+    padding: 4px 5px;
+}
 
 }
 
