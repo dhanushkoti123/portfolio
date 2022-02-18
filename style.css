@@ -213,6 +213,12 @@ color: #fff;
    
     background: #9900ff;
 }
+.con p {
+  font-family: "Gwendolyn";
+  color: #9900ff;
+  margin-bottom: -9px;
+}
+
 
  h1{
     margin-top:30px ;
