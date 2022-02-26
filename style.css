@@ -26,6 +26,11 @@ nav{
     line-height: 55px;
 position: fixed;
 background: rgba(0, 0, 0, 0.603);
+    
+    animation: top1 2s linear 1  ;
+ animation-delay: 2s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
 
 #logo{
@@ -36,6 +41,11 @@ background: rgba(0, 0, 0, 0.603);
     font-size: 2rem;
     cursor: pointer;
     color: var(--secondary);
+    
+     animation: top1 2s linear 1  ;
+ animation-delay: 1s;
+ visibility: hidden;
+ animation-fill-mode: forwards;
 }
 
 nav ul{
@@ -61,10 +71,24 @@ border-bottom: 2px solid orange;
 
 
 }
+
+
 p a{
     text-decoration: none;
     color: #fff;
 }
+
+@keyframes top1 {
+ 0%{
+ visibility: visible;
+    transform: translateY(-50px);
+  }
+ 100%{
+  visibility: visible;
+    transform: rotateY(0);
+  }
+}
+
 #home{
     background:linear-gradient(to top,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.021)),url("back.jpg");
     height: 100vh;
@@ -85,6 +109,22 @@ p a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+     animation: left1 2s linear 1  ;
+ animation-delay: 4s;
+ visibility: hidden;
+ animation-fill-mode: forwards;
+}
+
+@keyframes left1 {
+  0%{
+   visibility:visible ;
+   transform: translate(-50%, -50%); 
+   }
+  100%{
+    visibility:visible ;
+    transform: translate(-50%, -50%); 
+   }
 }
 .content h3{
     color: var(--five);
