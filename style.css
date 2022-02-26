@@ -81,11 +81,11 @@ p a{
 @keyframes top1 {
  0%{
  visibility: visible;
-    transform: translateY(-50px);
+    transform: translateY(-100px);
   }
  100%{
   visibility: visible;
-    transform: rotateY(0);
+    transform: translateY(0);
   }
 }
 
