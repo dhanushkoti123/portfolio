@@ -43,7 +43,7 @@ background: rgba(0, 0, 0, 0.603);
     color: var(--secondary);
     
      animation: top1 2s linear 1  ;
- animation-delay: 1s;
+ animation-delay: 2s;
  visibility: hidden;
  animation-fill-mode: forwards;
 }
